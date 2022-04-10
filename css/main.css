@@ -1,0 +1,40 @@
+#vopros{
+	color: blue;
+//	color: transparent;
+//background: hsl(0, 75%,45%);
+text-shadow: 3px 3px 1px -8px hsla(0, 60%, 100%, 0.75),
+            
+}
+#voDiv{
+	//background: hsl(0, 75%,45%);
+	background: yellow;
+	text-shadow: 1px 1px 1px black, 0 0 1em blue; /* Параметры тени */
+}
+#podval{
+	//background: hsl(0, 75%,45%);
+	background: white;
+	text-shadow: 1px 1px 1px black, 0 0 1em blue; /* Параметры тени */
+}
+
+#otv1{
+	//background: hsl(0, 75%,45%);
+	//background: yellow;
+	//text-shadow: 1px 1px 1px black, 0 0 1em blue; /* Параметры тени */
+	
+}
+
+
+p 
+{
+color: blue;
+}
+table
+{
+	width: 100%;
+	color: blue;
+}
+td
+{
+	text-align: left;
+	width: 20%;
+}

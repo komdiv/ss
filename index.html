@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="css/main.css" rel="stylesheet"/>
+    <title>Test</title>
+	
+</head>
+<body id='body' class="body">
+
+<script src="js/functions.js"> </script>
+<script src="js/fon.js"> </script>
+<h1 class="start"> словарные слова </h1>
+<br>
+<p> </p>
+<script>
+//	<input type="button" name="otv1" id="otv1" value="да"></input>	
+//	<input type="button" name="otv2" id="otv2" value="да"></input>	
+//	<input type="button" name="otv3" id="otv3" value="да"></input>
+	
+	let Name = "человек";
+	let text="";
+	window.mapsStart = new Map();
+	window.maps = new Map();
+	window.mapsError = new Map();
+	window.mapsErrorInteger = 0;
+	//window.mapsLastVopros = new Map();
+	window.voRight=0;
+	window.voError=0;
+	//window.voTekInteger = 0;
+	let np = 0;
+	//первый вопрос со слова "привет" для 
+	//window.mapsStart.set(np++, (new VoStart(`привет ${Name} !как твои дела? ты готов пройти тест?`,"да","нет","как отсюда выйти?",1)));
+	fillMapVo(window.maps);
+	creatDiv(Vo);
+	display(Vo);
+	//display(window.voTekInteger); //ok
+
+	
+//	document.write(`${maps.size}`);
+//	document.write(`${maps.get(0).vopros}`);
+	
+	
+	//text = `<br> ${Name}, ты готов пройти тест?`;
+	//new Table(text, 2, 3);
+
+	//text = `<br> ${Name}, сколько всего хокаге?`;
+	//new Table(text, 2, 5);
+	
+
+
+ //	for(let v of maps){
+//		document.write(`вставь букву ==>  ${v.vopros}:`);
+//	let Name = "человек";
+//	text = `ƒоброе утро ${Name} !  ак твои дела?`;
+//	new Table(text, 2, 3);
+//	text = `<br> ${Name}, ты готов пройти тест?`;
+//	new Table(text, 2, 3);
+//
+//	text = `<br> ${Name}, сколько всего хокаге?`;
+//	new Table(text, 2, 5);
+//
+//	text = `<br> <button onclick="next()"> 7 </button>`;
+//	new Table(text, 3, 5);
+//	text = `<br> <button> 7,5 </button>`;
+//	new Table(text, 3, 5);
+//	text = `<br> <button> 8,7 </button>`;
+//	new Table(text, 3, 5);		
+//	}
+ 
+	//let Name = prompt(" ак теб¤ мама назвала, малыш?");
+
+	//document.write(`<br> ${Name}, ты готов пройти тест?`);
+//	if (confirm(hi)) {
+//	document.write(`${Name}, ты готов пройти тест?`);
+//	}else{
+//	document.write(`${Name}, даже не рассказывай что случилось!`);
+//	}
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
