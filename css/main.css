@@ -17,11 +17,33 @@ text-shadow: 3px 3px 1px -8px hsla(0, 60%, 100%, 0.75),
 }
 
 #otv1{
-	//background: hsl(0, 75%,45%);
-	//background: yellow;
-	//text-shadow: 1px 1px 1px black, 0 0 1em blue; /* Параметры тени */
-	
+	padding: 5px 20px;
+	margin: 10px 5px;
+	//color: white;
+	//background: black;
+	font-size: large;
+	//text-decoration-color: yellow;
+	//text-shadow: 20px 20px 20px white, 2px 3px 5em white; /* Параметры тени */
 }
+#otv2{
+	padding: 5px 20px;
+	margin: 10px 5px;
+	//color: white;
+	//background: black;
+	font-size: large;
+//text-decoration-color: yellow;
+//text-shadow: 20px 20px 20px white, 2px 3px 5em white; /* Параметры тени */
+}
+#otv3{
+	padding: 5px 20px;
+	margin: 10px 5px;
+	//color: white;
+	//background: black;
+	font-size: large;
+//text-decoration-color: yellow;
+//text-shadow: 20px 20px 20px white, 2px 3px 5em white; /* Параметры тени */
+}
+
 
 
 p 
