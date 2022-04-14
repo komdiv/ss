@@ -126,6 +126,7 @@ function proverka(intOtvet){
 			if (intOtvet ==1){element = document.querySelector("#otv1")}
 			if (intOtvet ==2){element = document.querySelector("#otv2")}
 			if (intOtvet ==3){element = document.querySelector("#otv3")}
+
 			let intTek = document.querySelector("#intTek");
 			let msgErrors = document.querySelector("#msgErrors");
 			//if (window.voTek.iknow == 0) {window.voTek.iknow = -1;};

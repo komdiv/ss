@@ -47,12 +47,20 @@ text-shadow: 3px 3px 1px -8px hsla(0, 60%, 100%, 0.75),
 	-webkit-user-select: none;
 	touch-action: manipulation;
 }
-.buttton-otv:hover {
-	box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
-	transform: translate3d(0, 2px, 0);
+@-webkit-keyframes teni {
+	0% {box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+		transform: translate3d(0, 2px, 0);}
 }
 
-.buttton-otv:focus {
+.buttton-otv:hover {
+	-webkit-animation:teni 2s infinite;
+	
+	//box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+	//transform: translate3d(0, 2px, 0);
+	//transform: translate3d(20px, 10px, 0);
+}
+
+.buttton-otv_:focus {
 	box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 	transform: translate3d(0, 2px, 0);
 }
