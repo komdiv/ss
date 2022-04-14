@@ -52,7 +52,7 @@ text-shadow: 3px 3px 1px -8px hsla(0, 60%, 100%, 0.75),
 	transform: translate3d(0, 2px, 0);
 }
 
-.buttton-otv_:focus {
+.buttton-otv:focus {
 	box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 	transform: translate3d(0, 2px, 0);
 }
